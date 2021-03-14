@@ -1,0 +1,146 @@
+.content {
+    margin: auto;
+    max-width: 500px;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+a.outside {
+    transition: all .2s ease-in-out;
+    color: black;
+    border-radius: 5px;
+    display: table-cell;
+    border: solid 1px black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(96, 198, 245);
+    text-decoration: none;
+    vertical-align: middle;
+    box-shadow: 40px -15px rgba(128, 128, 128, 0.349);
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li {
+    margin: 20px 0px 20px 0px;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+button {
+    background-color: rgba(109, 236, 109, 0.473);
+    color: black;
+    width: 200px;
+    height: 50px;
+    margin-top: 5px;
+    text-decoration: none;
+    border: none;
+    transition: all .2s ease-in-out;
+}
+
+.useless {
+    background-color: rgba(250, 124, 124, 0.432);
+}
+
+a.inside {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+a.inside:visited {
+    background-color: rgb(250, 124, 124);
+}
+
+
+
+img {
+    width: 300px;
+    background-color: white;
+    border: solid 1px rgb(224, 210, 210);
+    margin: 0% 0% 0% 0%;
+    padding: 2% 0% 2% 0%;
+}
+
+h1 {
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+
+.floated-right {
+    float: left;
+    margin-right: 5px;
+}
+
+.floated-left {
+    float: right;
+}
+h1 {
+    font-family: 'Amatic SC', cursive;
+}
+h1:hover {
+    transform: scale(1.2);
+}
+
+img:hover {
+    opacity: .5;
+}
+
+span:hover {
+    text-decoration: underline;
+}
+.paragraph::first-letter {
+    font-size: 350%;
+    float: left;
+    background-color: black;
+    color: white;
+    border: silver solid 3px;
+    margin: 0% 3px 2px 2px;
+    padding: 0px 5px 5px 3px;
+    line-height: 1;
+   
+}
+.paragraph {
+    line-height: 1.5;
+    text-align: start;
+    margin-bottom: 30px;
+}
+h4 {
+    margin-top: 2px;
+}
+h3 {
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+h2 {
+    
+    text-align: center;
+}
+.h3logo {
+    margin: 0;
+    width: 175px; 
+    
+    border: none;
+
+}
+.youtube {
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    margin-top: 0px;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+/* Tak, generalnie to selektor hover jest moim ulubionym*/
+/* Duzo chaosu wiem, proszę o wyrozumiałość, dopiero zaczynam*/
+/* Zrezygnowalem z position absolute, bo uklad obrazka zmieniał się wraz ze zmiana rozmiarów okna przeglądarki*/
+

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pl">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--powyższa linijka podobno daje kompatybilność z urządzeniami mobilnymi-->
+    <meta charset="utf-8">
+    <!-- bez dodania standardu kodowania, polskie znaki nadal wyświetlają się. (standard przeglądarki?)-->
+    <title>Praca domowa-zadanie 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/images/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="content">
+        <div class="top">
+            <h1 id="top">Zadanie 1</h1>
+        </div>
+        <p>Moja pierwsza strona HTML</p>
+        <img class="floated-right" alt="Na obrazku widnieje logotyp ha te em el" src="./assets/images/html.png">
+        <div class="first">
+            <h2><strong>Moja pierwsza Strona</strong></h2>
+            <img class="h3logo" src="./assets/images/logo.png"><br>
+            <h3>Devstock Academy</h3>
+            <h4>Autor: <span>Grzegorz Duda</span></h4>
+            <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque facilis repudiandae, labore natus veniam quae magni ullam! Dignissimos velit dicta repellat amet exercitationem fuga odit perferendis delectus pariatur, fugiat doloribus! Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Consectetur eius deserunt nihil aperiam! Sequi quidem fuga aspernatur rerum iure sed consequatur quos, eligendi aut sit, hic rem error quia eveniet? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Sed officia reprehenderit reiciendis, consequuntur, maxime autem ad commodi aspernatur rerum necessitatibus voluptatem quasi corporis! Consectetur assumenda pariatur reprehenderit obcaecati totam error! Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Hic eligendi nesciunt ducimus dolores? Id quibusdam mollitia placeat fugiat quos consequatur dignissimos, alias incidunt deleniti corrupti repellendus atque facilis voluptatum blanditiis.<br>
+                <div class="youtube">
+                <a target="blank" href="https://www.youtube.com/watch?v=kpgIjt1Nu9g&ab_channel=Grzegorzduda">Link do Easter egg'a</a></div>
+                <br>
+            </p>
+        </div>
+        <div class="second">
+            <img class="floated-left" alt="na obrazku widnieje logotyp html" src="https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.png">
+            <ul>
+                <li>
+                    <a class="outside" href="https://www.google.pl">Google</a>
+                </li>
+                <li>
+                    <a class="outside" target="blank" href="https://www.onet.pl">Onet</a>
+                </li>
+                <li>
+                    <a class="outside" target="blank" href="https://www.wp.pl">Wirtualna Polska</a>
+                    <!--podobnież bez javascript'u nie da sie otworzyć nowego okna (nie mylić z nowym tabem)-->
+                </li>
+            </ul>
+            <button>
+        <a class="inside" href="#top">Przejdź w górę</a>
+        <!--nie wiem czy to jest dobrze zrobione-->
+        </button>
+            <button class="useless">Nic nie robię</button><br><br> 1<br>
+            <button>
+            <a class="inside" href="#top">Przejdź w górę</a>
+            </button><br>
+            <button class="useless">Nic nie robię</button><br>2<br>
+            <!--1. złamanie wiersza-->
+            <div>
+                <button>
+            <a class="inside" href="#top">Przejdź w górę</a>
+            </button>
+            </div>
+            <button class="useless">Nic nie robię</button><br>3<br>
+            <!--wstawienie elementu blokowego ( nie wiem czy to dobry sposob, taki mi przyszedl do głowy :D)-->
+            <button><a class="inside" href="#top">Przejdź w górę</a></button><pre><button class="useless">Nic nie robię</button></pre>
+            <!--znacznik pre-->
+
+        </div>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
